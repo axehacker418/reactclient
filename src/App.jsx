@@ -10,6 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 import AddTrip from './pages/AddTrip';
+import TravelBucket from './pages/TravelBucket';
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
       <Route path="/login" element ={<Login/>}/>
       <Route path="/register" element ={<Register/>}/>
       <Route path="/addtrip" element={<AddTrip/>}/>
+      <Route path="/travelbucket" element={<TravelBucket/>}/>
     </Routes>
     <Footer/>
     </>
