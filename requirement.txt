@@ -1,0 +1,9 @@
+npm create vite@latest OR npm create vite@latest client -- --template react
+cd client 
+npm install
+npm run dev
+
+npm i axios //for api routing 
+e:\CourseBooking\Client\src\Services
+npm i react-router-dom 
+npm i react-icons
