@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import AddTrip from './pages/AddTrip';
 import TravelBucket from './pages/TravelBucket';
+import Profile from './pages/Profile';
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
       <Route path="/register" element ={<Register/>}/>
       <Route path="/addtrip" element={<AddTrip/>}/>
       <Route path="/travelbucket" element={<TravelBucket/>}/>
+      <Route path="/Profile" element={<Profile />}/>
     </Routes>
     <Footer/>
     </>

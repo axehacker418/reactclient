@@ -13,8 +13,8 @@ function Login() {
       const res = await API.post("/login", { email, password });
       localStorage.setItem("user", JSON.stringify(res.data));
 
-      if (res.data.message === "Login Succesfully!") {
-        alert("Login Succesfully!");
+      if (res.data.message === "Login Successfully!"){
+        alert("Login Successfully!");
         navigate("/");
       }
     } catch (error) {
